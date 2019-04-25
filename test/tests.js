@@ -12,7 +12,6 @@ test('Test adding a fruit segment', function(assert) {
     //Act 
     // Call the function you're testing and set the result to a const
     const result = feedCaterpillar(fruitName, div);
-
     
     //Assert
     assert.equal(result, expected);
