@@ -1,12 +1,5 @@
+import feedCaterpillar from '../src/feed-caterpillar.js';
 const test = QUnit.test;
-
-function feedCaterpillar(fruitName, parentElement) {
-    const span = document.createElement('span');
-    span.classList.add('part', fruitName);
-
-    parentElement.appendChild(span);
-    return parentElement.innerHTML;
-}
 
 test('Test adding a fruit segment', function(assert) {
     //Arrange
