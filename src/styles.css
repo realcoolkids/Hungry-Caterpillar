@@ -6,6 +6,10 @@ body {
     margin-right: -20px;
 }
 
+.buttons {
+    margin: 40px 0;
+}
+
 .part {
     display: inline-block;
     width: 50px;
